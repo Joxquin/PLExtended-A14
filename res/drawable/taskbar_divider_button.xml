@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="52.0dip" android:width="52.0dip" android:viewportWidth="52.0" android:viewportHeight="52.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:fillColor="@color/taskbar_divider_background" android:pathData="M26,11L26,41" android:strokeColor="@color/taskbar_divider_background" android:strokeWidth="2.0" android:strokeLineCap="round" />
+    </group>
+</vector>

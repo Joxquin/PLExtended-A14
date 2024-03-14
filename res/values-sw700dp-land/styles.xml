@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CellStyle4x4Fold" parent="@style/CellStyleDefault">
+        <item name="iconDrawablePadding">8.0dip</item>
+    </style>
+    <style name="CellStyle4x5Fold" parent="@style/CellStyleDefault">
+        <item name="iconDrawablePadding">4.0dip</item>
+    </style>
+    <style name="Folder4x4FoldStyle" parent="@style/FolderStyleDefault">
+        <item name="folderCellHeight">94.0dip</item>
+        <item name="folderCellWidth">80.0dip</item>
+    </style>
+    <style name="Folder5x5FoldStyle" parent="@style/FolderStyleDefault">
+        <item name="folderCellHeight">83.0dip</item>
+        <item name="folderCellWidth">64.0dip</item>
+    </style>
+    <style name="AllAppsStyle4x5Fold" parent="@style/AllAppsStyleDefault">
+        <item name="horizontalPadding">20.0dip</item>
+    </style>
+    <style name="AllAppsStyle5x5Fold" parent="@style/AllAppsStyleDefault">
+        <item name="horizontalPadding">50.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/search_result_hero_subtitle_size" android:textColor="?materialColorPrimary" android:gravity="start" android:paddingLeft="@dimen/search_result_padding" android:paddingTop="@dimen/section_header_margin_top" android:paddingRight="@dimen/search_result_padding" android:paddingBottom="@dimen/section_header_margin_bottom" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/section_header" android:importantForAccessibility="no" android:textAlignment="viewStart" style="@style/AllAppsSearchResult"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" />

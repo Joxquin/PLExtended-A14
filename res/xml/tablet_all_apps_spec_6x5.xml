@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allAppsSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <allAppsSpec launcher:maxAvailableSize="877.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="0.0dip" />
+        <endPadding launcher:fixedSize="0.0dip" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:fixedSize="120.0dip" />
+    </allAppsSpec>
+    <allAppsSpec launcher:maxAvailableSize="1047.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="0.0dip" />
+        <endPadding launcher:fixedSize="0.0dip" />
+        <gutter launcher:fixedSize="20.0dip" />
+        <cellSize launcher:fixedSize="120.0dip" />
+    </allAppsSpec>
+    <allAppsSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="0.0dip" />
+        <endPadding launcher:fixedSize="0.0dip" />
+        <gutter launcher:fixedSize="32.0dip" />
+        <cellSize launcher:fixedSize="120.0dip" />
+    </allAppsSpec>
+    <allAppsSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="width">
+        <startPadding launcher:fixedSize="32.0dip" />
+        <endPadding launcher:fixedSize="32.0dip" />
+        <gutter launcher:fixedSize="8.0dip" />
+        <cellSize launcher:matchWorkspace="true" />
+    </allAppsSpec>
+</allAppsSpecs>

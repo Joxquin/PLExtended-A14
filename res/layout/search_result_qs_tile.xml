@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultQSTile android:orientation="horizontal" android:id="@id/tile_layout" android:background="@drawable/qs_tile_background" android:layout_width="@dimen/search_result_qs_tile_width" android:layout_height="@dimen/search_result_qs_tile_height" android:paddingVertical="@dimen/search_result_qs_tile_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tile_icon" android:layout_width="@dimen/search_result_qs_tile_image_size" android:layout_height="@dimen/search_result_qs_tile_image_size" android:layout_marginStart="@dimen/search_result_qs_tile_margin_start" android:layout_marginEnd="@dimen/search_result_qs_tile_margin_end" android:layout_marginVertical="@dimen/search_result_qs_tile_margin_vertical" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/search_result_qs_tile_text_width" android:layout_height="@dimen/search_result_qs_tile_text_height">
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/tile_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AllAppsSearchResult" />
+        <TextView android:textColor="?android:textColorSecondary" android:id="@id/tile_secondary_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AllAppsSearchResultDefault" />
+    </LinearLayout>
+    <ImageView android:id="@id/chevron_icon" android:visibility="gone" android:layout_width="@dimen/search_result_qs_tile_image_size" android:layout_height="@dimen/search_result_qs_tile_image_size" android:src="@drawable/ic_chevron_right" android:layout_marginEnd="@dimen/search_result_qs_tile_margin_end" android:layout_marginVertical="@dimen/search_result_qs_tile_margin_vertical" />
+</com.google.android.apps.nexuslauncher.allapps.SearchResultQSTile>

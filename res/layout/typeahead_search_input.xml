@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/search_box_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/search_input_text_size" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:gravity="start|center" android:id="@id/hint" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollHorizontally="true" android:singleLine="true" android:labelFor="@id/input" style="@style/AllAppsSearchResultDefault" />
+    <com.google.android.apps.nexuslauncher.search.SearchEditText android:theme="@style/SearchBoxText" android:gravity="start|center" android:id="@id/input" android:paddingTop="@dimen/search_input_vertical_padding" android:paddingBottom="@dimen/search_input_vertical_padding" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="text" android:privateImeOptions="need_conversion" android:imeOptions="actionGo|flagNoFullscreen" android:forceHasOverlappingRendering="false" android:importantForAutofill="no" style="@style/AllAppsSearchResultDefault" />
+</merge>

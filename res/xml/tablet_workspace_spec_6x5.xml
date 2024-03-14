@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workspaceSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <workspaceSpec launcher:maxAvailableSize="878.0dip" launcher:specType="height">
+        <startPadding launcher:ofRemainderSpace="0.25" />
+        <endPadding launcher:ofRemainderSpace="0.75" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:fixedSize="120.0dip" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <startPadding launcher:ofAvailableSpace="0.08" />
+        <endPadding launcher:ofAvailableSpace="0.103" />
+        <gutter launcher:ofRemainderSpace="0.25" />
+        <cellSize launcher:fixedSize="120.0dip" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="width">
+        <startPadding launcher:ofRemainderSpace="0.5" />
+        <endPadding launcher:ofRemainderSpace="0.5" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:ofAvailableSpace="0.1275" />
+    </workspaceSpec>
+</workspaceSpecs>

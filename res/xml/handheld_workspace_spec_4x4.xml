@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workspaceSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <workspaceSpec launcher:maxAvailableSize="566.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="0.0dip" />
+        <endPadding launcher:ofAvailableSpace="0.08" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:ofRemainderSpace="0.25" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="612.0dip" launcher:specType="height">
+        <startPadding launcher:ofRemainderSpace="0.3529" />
+        <endPadding launcher:ofRemainderSpace="0.6471" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:ofAvailableSpace="0.1837" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="616.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="8.0dip" />
+        <endPadding launcher:ofRemainderSpace="1.0" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:fixedSize="130.0dip" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="636.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="16.0dip" />
+        <endPadding launcher:ofRemainderSpace="1.0" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:fixedSize="130.0dip" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="679.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="36.0dip" />
+        <endPadding launcher:ofRemainderSpace="1.0" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:fixedSize="130.0dip" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <startPadding launcher:ofRemainderSpace="0.3529" />
+        <endPadding launcher:ofRemainderSpace="0.6471" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:ofAvailableSpace="0.1837" />
+    </workspaceSpec>
+    <workspaceSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="width">
+        <startPadding launcher:ofRemainderSpace="0.5" />
+        <endPadding launcher:ofRemainderSpace="0.5" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:ofAvailableSpace="0.1941" />
+    </workspaceSpec>
+</workspaceSpecs>

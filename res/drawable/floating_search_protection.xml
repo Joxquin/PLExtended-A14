@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <item>
+        <shape>
+            <solid android:color="?android:^attr-private/materialColorSurfaceBright" />
+            <corners android:radius="@dimen/all_apps_floating_search_background_hairline_radius" />
+        </shape>
+    </item>
+    <item android:top="@dimen/all_apps_floating_search_background_hairline_width">
+        <shape>
+            <solid android:color="?allAppsScrimColor" />
+            <corners android:radius="@dimen/all_apps_floating_search_background_radius" />
+        </shape>
+    </item>
+</layer-list>

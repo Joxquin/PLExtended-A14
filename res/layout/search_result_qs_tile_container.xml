@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultQsTileContainer android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tile_0" android:layout_width="@dimen/search_result_qs_tile_width" android:layout_height="@dimen/search_result_qs_tile_height" android:forceHasOverlappingRendering="false" layout="@layout/search_result_qs_tile" />
+    <include android:id="@id/tile_1" android:layout_width="@dimen/search_result_qs_tile_width" android:layout_height="@dimen/search_result_qs_tile_height" android:layout_marginStart="@dimen/search_result_qs_tile_container_between_margin" android:forceHasOverlappingRendering="false" app:layout_constraintStart_toEndOf="@id/tile_0" layout="@layout/search_result_qs_tile" />
+    <include android:id="@id/tile_2" android:layout_width="@dimen/search_result_qs_tile_width" android:layout_height="@dimen/search_result_qs_tile_height" android:layout_marginStart="@dimen/search_result_qs_tile_container_between_margin" android:forceHasOverlappingRendering="false" app:layout_constraintStart_toEndOf="@id/tile_1" layout="@layout/search_result_qs_tile" />
+    <include android:id="@id/tile_3" android:layout_width="@dimen/search_result_qs_tile_width" android:layout_height="@dimen/search_result_qs_tile_height" android:layout_marginStart="@dimen/search_result_qs_tile_container_between_margin" android:forceHasOverlappingRendering="false" app:layout_constraintStart_toEndOf="@id/tile_2" layout="@layout/search_result_qs_tile" />
+</com.google.android.apps.nexuslauncher.allapps.SearchResultQsTileContainer>

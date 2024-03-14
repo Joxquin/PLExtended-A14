@@ -1,0 +1,33 @@
+package com.android.launcher3;
+
+import com.android.systemui.shared.R;
+/* loaded from: classes.dex */
+public final class R$styleable {
+    public static final int[] AllAppsStyle = {R.attr.horizontalPadding};
+    public static final int[] ArrowTipView = {R.attr.arrowTipBackground, R.attr.arrowTipTextColor};
+    public static final int[] BubbleTextView = {R.attr.centerVertically, R.attr.iconDisplay, R.attr.iconSizeOverride, R.attr.layoutHorizontal};
+    public static final int[] CellLayout = {R.attr.containerType};
+    public static final int[] CellStyle = {R.attr.iconDrawablePadding};
+    public static final int[] DevicePadding = {R.attr.maxEmptySpace};
+    public static final int[] DevicePaddingFormula = {R.attr.f6197a, R.attr.f6198b, R.attr.f6199c};
+    public static final int[] FolderIconPreview = {R.attr.folderIconBorderColor, R.attr.folderPreviewColor};
+    public static final int[] FolderStyle = {R.attr.folderBorderSpace, R.attr.folderCellHeight, R.attr.folderCellWidth, R.attr.folderFooterHeight, R.attr.folderTopPadding};
+    public static final int[] GridDisplayOption = {R.attr.allAppsSpecsId, R.attr.allAppsSpecsTwoPanelId, R.attr.allAppsStyle, R.attr.cellStyle, R.attr.dbFile, R.attr.defaultLayoutId, R.attr.demoModeLayoutId, R.attr.deviceCategory, R.attr.devicePaddingId, R.attr.folderSpecsId, R.attr.folderSpecsTwoPanelId, R.attr.folderStyle, R.attr.hotseatColumnSpan, R.attr.hotseatColumnSpanLandscape, R.attr.hotseatColumnSpanTwoPanelLandscape, R.attr.hotseatColumnSpanTwoPanelPortrait, R.attr.hotseatSpecsId, R.attr.hotseatSpecsTwoPanelId, R.attr.inlineNavButtonsEndSpacing, R.attr.inlineQsb, R.attr.isScalable, R.attr.name, R.attr.numAllAppsColumns, R.attr.numColumns, R.attr.numExtendedAllAppsColumns, R.attr.numExtendedHotseatIcons, R.attr.numFolderColumns, R.attr.numFolderRows, R.attr.numHotseatIcons, R.attr.numRows, R.attr.numSearchContainerColumns, R.attr.workspaceSpecsId, R.attr.workspaceSpecsTwoPanelId};
+    public static final int[] InsettableFrameLayout_Layout = {R.attr.layout_ignoreInsets};
+    public static final int[] LoggablePref = {16843240, 16843245, R.attr.logIdOff, R.attr.logIdOn};
+    public static final int[] PagedView = {R.attr.pageIndicator};
+    public static final int[] PersonalWorkSlidingTabStrip = {R.attr.alignOnIcon};
+    public static final int[] PreviewFragment = {16842755, 16842960};
+    public static final int[] ProfileDisplayOption = {R.attr.allAppsBorderSpace, R.attr.allAppsBorderSpaceHorizontal, R.attr.allAppsBorderSpaceLandscape, R.attr.allAppsBorderSpaceLandscapeHorizontal, R.attr.allAppsBorderSpaceLandscapeVertical, R.attr.allAppsBorderSpaceTwoPanelLandscape, R.attr.allAppsBorderSpaceTwoPanelLandscapeHorizontal, R.attr.allAppsBorderSpaceTwoPanelLandscapeVertical, R.attr.allAppsBorderSpaceTwoPanelPortrait, R.attr.allAppsBorderSpaceTwoPanelPortraitHorizontal, R.attr.allAppsBorderSpaceTwoPanelPortraitVertical, R.attr.allAppsBorderSpaceVertical, R.attr.allAppsCellHeight, R.attr.allAppsCellHeightLandscape, R.attr.allAppsCellHeightTwoPanelLandscape, R.attr.allAppsCellHeightTwoPanelPortrait, R.attr.allAppsCellWidth, R.attr.allAppsCellWidthLandscape, R.attr.allAppsCellWidthTwoPanelLandscape, R.attr.allAppsCellWidthTwoPanelPortrait, R.attr.allAppsIconSize, R.attr.allAppsIconSizeLandscape, R.attr.allAppsIconSizeTwoPanelLandscape, R.attr.allAppsIconSizeTwoPanelPortrait, R.attr.allAppsIconTextSize, R.attr.allAppsIconTextSizeTwoPanelLandscape, R.attr.allAppsIconTextSizeTwoPanelPortrait, R.attr.borderSpace, R.attr.borderSpaceHorizontal, R.attr.borderSpaceLandscape, R.attr.borderSpaceLandscapeHorizontal, R.attr.borderSpaceLandscapeVertical, R.attr.borderSpaceTwoPanelLandscape, R.attr.borderSpaceTwoPanelLandscapeHorizontal, R.attr.borderSpaceTwoPanelLandscapeVertical, R.attr.borderSpaceTwoPanelPortrait, R.attr.borderSpaceTwoPanelPortraitHorizontal, R.attr.borderSpaceTwoPanelPortraitVertical, R.attr.borderSpaceVertical, R.attr.canBeDefault, R.attr.horizontalMargin, R.attr.horizontalMarginLandscape, R.attr.horizontalMarginTwoPanelLandscape, R.attr.horizontalMarginTwoPanelPortrait, R.attr.hotseatBarBottomSpace, R.attr.hotseatBarBottomSpaceLandscape, R.attr.hotseatBarBottomSpaceTwoPanelLandscape, R.attr.hotseatBarBottomSpaceTwoPanelPortrait, R.attr.hotseatQsbSpace, R.attr.hotseatQsbSpaceLandscape, R.attr.hotseatQsbSpaceTwoPanelLandscape, R.attr.hotseatQsbSpaceTwoPanelPortrait, R.attr.iconImageSize, R.attr.iconSizeLandscape, R.attr.iconSizeTwoPanelLandscape, R.attr.iconSizeTwoPanelPortrait, R.attr.iconTextSize, R.attr.iconTextSizeLandscape, R.attr.iconTextSizeTwoPanelLandscape, R.attr.iconTextSizeTwoPanelPortrait, R.attr.minCellHeight, R.attr.minCellHeightLandscape, R.attr.minCellHeightTwoPanelLandscape, R.attr.minCellHeightTwoPanelPortrait, R.attr.minCellWidth, R.attr.minCellWidthLandscape, R.attr.minCellWidthTwoPanelLandscape, R.attr.minCellWidthTwoPanelPortrait, R.attr.minHeightDps, R.attr.minWidthDps, R.attr.name, R.attr.startAlignTaskbar, R.attr.startAlignTaskbarLandscape, R.attr.startAlignTaskbarTwoPanelLandscape, R.attr.startAlignTaskbarTwoPanelPortrait, R.attr.transientTaskbarIconSize, R.attr.transientTaskbarIconSizeLandscape, R.attr.transientTaskbarIconSizeTwoPanelLandscape, R.attr.transientTaskbarIconSizeTwoPanelPortrait};
+    public static final int[] RecyclerViewFastScroller = {R.attr.canThumbDetach};
+    public static final int[] ResponsiveSpec = {R.attr.maxAvailableSize, R.attr.specType};
+    public static final int[] RootSandboxLayout = {R.attr.onSurfaceBack, R.attr.onSurfaceHome, R.attr.onSurfaceOverview, R.attr.secondaryBack, R.attr.secondaryHome, R.attr.secondaryOverview, R.attr.surfaceBack, R.attr.surfaceContainer, R.attr.surfaceHome, R.attr.surfaceOverview, R.attr.tutorialSubtitle};
+    public static final int[] SearchResultIcon = {R.attr.attachEvents};
+    public static final int[] ShadowInfo = {R.attr.ambientShadowBlur, R.attr.ambientShadowColor, R.attr.keyShadowBlur, R.attr.keyShadowColor, R.attr.keyShadowOffsetX, R.attr.keyShadowOffsetY};
+    public static final int[] SizeSpec = {R.attr.fixedSize, R.attr.matchWorkspace, R.attr.maxSize, R.attr.ofAvailableSpace, R.attr.ofRemainderSpace};
+    public static final int[] StickyScroller_Layout = {R.attr.layout_sticky};
+    public static final int[] TaskView = {R.attr.focusBorderColor, R.attr.hoverBorderColor};
+    public static final int[] TypeAheadSearchInputView = {R.attr.hint};
+    public static final int[] WidgetSections = {R.attr.alsoKeepInApp, R.attr.category, R.attr.provider, R.attr.sectionDrawable, R.attr.sectionTitle};
+    public static final int[] WidgetsListRowHeader = {R.attr.appIconSize};
+}

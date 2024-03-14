@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allAppsSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <allAppsSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="32.0dip" />
+        <endPadding launcher:fixedSize="32.0dip" />
+        <gutter launcher:fixedSize="20.0dip" />
+        <cellSize launcher:matchWorkspace="true" />
+    </allAppsSpec>
+    <allAppsSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="width">
+        <startPadding launcher:fixedSize="32.0dip" />
+        <endPadding launcher:fixedSize="32.0dip" />
+        <gutter launcher:fixedSize="20.0dip" />
+        <cellSize launcher:matchWorkspace="true" />
+    </allAppsSpec>
+</allAppsSpecs>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.nexuslauncher.allapps.SearchResultIcon android:stateListAnimator="@null" launcher:attachEvents="true" launcher:centerVertically="true" launcher:iconDisplay="search_result_app_row" style="@style/BaseIcon.AllApps" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

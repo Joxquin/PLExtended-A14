@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:width="1.0dip" android:color="?android:^attr-private/materialColorSurfaceContainerHigh" />
+    <corners android:topLeftRadius="@dimen/sticky_snackbar_top_radius" android:topRightRadius="@dimen/sticky_snackbar_top_radius" />
+</shape>

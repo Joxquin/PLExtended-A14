@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:persistent="false" android:key="preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.settings.NotificationDotsPreference android:persistent="false" android:title="@string/notification_dots_title" android:key="pref_icon_badging" android:widgetLayout="@layout/notification_pref_warning" />
+    <com.google.android.apps.nexuslauncher.settings.AtAGlancePreference android:persistent="false" android:title="@string/smartspace_preferences_in_settings" android:key="pref_smartspace" android:widgetLayout="@layout/smartspace_pref_manage" />
+    <SwitchPreference android:persistent="true" android:title="@string/auto_add_shortcuts_label" android:key="pref_add_icon_to_home" android:summary="@string/auto_add_shortcuts_description" android:defaultValue="true" launcher:logIdOff="614" launcher:logIdOn="613" />
+    <SwitchPreference android:key="pref_enable_minus_one" android:defaultValue="true" launcher:logIdOff="618" launcher:logIdOn="617" />
+    <SwitchPreference android:title="@string/overview_suggestions_settings_title" android:key="pref_overview_action_suggestions" android:summary="@string/overview_suggestions_settings_summary" android:defaultValue="true" launcher:logIdOff="620" launcher:logIdOn="619" />
+    <androidx.preference.PreferenceScreen android:persistent="false" android:title="@string/suggestion_pref_screen_title" android:key="pref_suggestions" android:summary="@string/suggestion_pref_screen_desc">
+        <intent android:action="android.settings.ACTION_CONTENT_SUGGESTIONS_SETTINGS" />
+    </androidx.preference.PreferenceScreen>
+    <androidx.preference.PreferenceScreen android:persistent="false" android:title="@string/search_pref_screen_title" android:key="search_settings" android:summary="@string/search_pref_screen_desc">
+        <SwitchPreference android:persistent="true" android:title="@string/keyboard_show" android:key="pref_search_show_keyboard" android:summary="@string/keyboard_show_desc" android:defaultValue="@bool/search_pref_show_ime" />
+        <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_on_device_results_title" android:key="pref_allowDeviceResult" android:summary="@string/search_pref_result_on_device_results_desc" android:defaultValue="@bool/search_pref_result_device_enabled" />
+        <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_websuggest_title" android:key="pref_allowWebResult" android:defaultValue="@bool/search_pref_result_web_suggest_enabled" />
+        <PreferenceCategory android:title="@string/search_pref_category_result_types" android:key="search_result_types">
+            <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_shortcuts_title" android:key="pref_allowShortcutResult" android:summary="@string/search_pref_result_shortcuts_desc" android:defaultValue="@bool/search_pref_result_shortcuts_enabled" />
+            <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_people_title" android:key="pref_allowPeopleResult" android:summary="@string/search_pref_result_people_desc" android:defaultValue="@bool/search_pref_result_people_enabled" />
+            <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_settings_title" android:key="pref_allowSettingsResult" android:defaultValue="@bool/search_pref_result_settings_enabled" />
+            <SwitchPreference android:persistent="true" android:title="@string/search_pref_result_tips_title" android:key="pref_allowPixelTipsResult" android:defaultValue="@bool/search_pref_result_tips_enabled" />
+            <SwitchPreference android:persistent="true" android:key="pref_allowPlaySearchResult" android:defaultValue="@bool/search_pref_result_play_enabled" />
+            <Preference android:persistent="false" android:title="@string/search_pref_web_settings" android:key="search_web_settings" />
+        </PreferenceCategory>
+        <androidx.preference.PreferenceScreen android:title="@string/search_pref_category_experiments" android:key="search_pref_experiments">
+            <PreferenceCategory android:title="@string/search_pref_category_debug_only" android:key="search_debug_only">
+                <SwitchPreference android:persistent="true" android:title="@string/search_pref_show_hidden_targets_title" android:key="pref_search_show_hidden_targets" android:defaultValue="@bool/search_pref_show_hidden_targets" />
+            </PreferenceCategory>
+        </androidx.preference.PreferenceScreen>
+        <androidx.preference.PreferenceScreen android:persistent="true" android:title="@string/search_pref_result_aiai_title" android:key="search_aiai_corpus" android:summary="@string/search_pref_result_aiai_desc" />
+    </androidx.preference.PreferenceScreen>
+    <SwitchPreference android:persistent="true" android:title="@string/allow_rotation_title" android:key="pref_allowRotation" android:summary="@string/allow_rotation_desc" android:defaultValue="false" launcher:logIdOff="616" launcher:logIdOn="615" />
+    <androidx.preference.PreferenceScreen android:persistent="false" android:title="Developer Options" android:key="pref_developer_options" android:fragment="com.android.launcher3.uioverrides.flags.DeveloperOptionsFragment" />
+</androidx.preference.PreferenceScreen>

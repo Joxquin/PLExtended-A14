@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.SplitInstructionsView android:background="@drawable/split_instructions_background" android:paddingLeft="@dimen/split_instructions_horizontal_padding" android:paddingTop="@dimen/split_instructions_vertical_padding" android:paddingRight="@dimen/split_instructions_horizontal_padding" android:paddingBottom="@dimen/split_instructions_vertical_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:elevation="@dimen/split_instructions_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?android:^attr-private/textColorOnAccent" android:gravity="center" android:id="@id/split_instructions_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toast_split_select_app" android:drawablePadding="@dimen/split_instructions_drawable_padding" android:drawableEnd="@drawable/ic_split_exit" />
+</com.android.quickstep.views.SplitInstructionsView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hotseatSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <hotseatSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <hotseatQsbSpace launcher:fixedSize="0.0dip" />
+    </hotseatSpec>
+</hotseatSpecs>

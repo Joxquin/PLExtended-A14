@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CellStyle4x4Fold" parent="@style/CellStyleDefault">
+        <item name="iconDrawablePadding">10.0dip</item>
+    </style>
+    <style name="CellStyle4x5Fold" parent="@style/CellStyleDefault">
+        <item name="iconDrawablePadding">3.0dip</item>
+    </style>
+    <style name="CellStyle5x5Fold" parent="@style/CellStyleDefault">
+        <item name="iconDrawablePadding">6.0dip</item>
+    </style>
+    <style name="Folder4x4FoldStyle" parent="@style/FolderStyleDefault">
+        <item name="folderCellHeight">89.0dip</item>
+        <item name="folderCellWidth">68.0dip</item>
+    </style>
+    <style name="Folder4x5FoldStyle" parent="@style/FolderStyleDefault">
+        <item name="folderCellHeight">65.0dip</item>
+        <item name="folderCellWidth">70.0dip</item>
+    </style>
+    <style name="Folder5x5FoldStyle" parent="@style/FolderStyleDefault">
+        <item name="folderCellHeight">66.0dip</item>
+        <item name="folderCellWidth">53.0dip</item>
+    </style>
+    <style name="FolderStyleDefault">
+        <item name="folderBorderSpace">16.0dip</item>
+        <item name="folderCellHeight">94.0dip</item>
+        <item name="folderCellWidth">80.0dip</item>
+        <item name="folderFooterHeight">56.0dip</item>
+        <item name="folderTopPadding">24.0dip</item>
+    </style>
+    <style name="AllAppsStyle5x5Fold" parent="@style/AllAppsStyleDefault">
+        <item name="horizontalPadding">43.0dip</item>
+    </style>
+</resources>

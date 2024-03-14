@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<folderSpecs xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <folderSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="width">
+        <startPadding launcher:fixedSize="16.0dip" />
+        <endPadding launcher:fixedSize="16.0dip" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:matchWorkspace="true" launcher:maxSize="80.0dip" />
+    </folderSpec>
+    <folderSpec launcher:maxAvailableSize="9999.0dip" launcher:specType="height">
+        <startPadding launcher:fixedSize="24.0dip" />
+        <endPadding launcher:fixedSize="56.0dip" />
+        <gutter launcher:fixedSize="16.0dip" />
+        <cellSize launcher:matchWorkspace="true" launcher:maxSize="94.0dip" />
+    </folderSpec>
+</folderSpecs>

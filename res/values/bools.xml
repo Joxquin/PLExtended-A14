@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_enableTaskSnapshotPreloading">true</bool>
+    <bool name="config_largeHeap">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="dream_overlay_complication_clock_bottom_padding">false</bool>
+    <bool name="floating_rotation_button_position_left">true</bool>
+    <bool name="home_settings_allow_divider">false</bool>
+    <bool name="home_settings_icon_space_reserved">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="search_pref_filter_by_allow_list">false</bool>
+    <bool name="search_pref_legacy_ime">false</bool>
+    <bool name="search_pref_result_device_enabled">true</bool>
+    <bool name="search_pref_result_people_enabled">true</bool>
+    <bool name="search_pref_result_play_enabled">true</bool>
+    <bool name="search_pref_result_settings_enabled">true</bool>
+    <bool name="search_pref_result_shortcuts_enabled">true</bool>
+    <bool name="search_pref_result_tips_enabled">true</bool>
+    <bool name="search_pref_result_web_suggest_enabled">true</bool>
+    <bool name="search_pref_show_hidden_targets">false</bool>
+    <bool name="search_pref_show_ime">false</bool>
+    <bool name="simple_cache_enable_im_memory">false</bool>
+</resources>

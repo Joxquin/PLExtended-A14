@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.widget.picker.WidgetsTwoPaneSheet android:theme="?widgetsTheme" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher3.views.SpringRelativeLayout android:id="@id/container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <View android:id="@id/collapse_handle" android:background="@drawable/widget_picker_collapse_handle" android:layout_width="@dimen/bottom_sheet_handle_width" android:layout_height="@dimen/bottom_sheet_handle_height" android:layout_marginTop="@dimen/bottom_sheet_handle_margin" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="24.0sp" android:textColor="?widgetPickerTitleColor" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/widget_button_text" android:layout_below="@id/collapse_handle" android:paddingHorizontal="@dimen/widget_list_horizontal_margin_two_pane" />
+        <LinearLayout android:id="@id/linear_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title">
+            <FrameLayout android:layout_gravity="start" android:id="@id/recycler_view_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.33">
+                <TextView android:id="@id/fast_scroller_popup" android:layout_marginEnd="@dimen/fastscroll_popup_margin" style="@style/FastScrollerPopup" />
+                <com.android.launcher3.views.RecyclerViewFastScroller android:id="@id/fast_scroller" android:layout_width="@dimen/fastscroll_width" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/fastscroll_end_margin" />
+                <com.android.launcher3.widget.picker.WidgetsRecyclerView android:id="@id/search_widgets_list_view" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_list_horizontal_margin_two_pane" />
+            </FrameLayout>
+            <FrameLayout android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/right_pane_container" android:paddingTop="@dimen/widget_list_horizontal_margin_two_pane" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.67" android:layout_marginEnd="@dimen/widget_list_horizontal_margin_two_pane">
+                <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/no_widgets_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/PrimaryHeadline" />
+                <ScrollView android:id="@id/right_pane_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/right_pane" android:background="@drawable/widgets_surface_background" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true">
+                        <com.android.launcher3.widget.picker.WidgetsRecommendationTableLayout android:id="@id/recommended_widget_table" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_list_horizontal_margin_two_pane" />
+                    </LinearLayout>
+                </ScrollView>
+            </FrameLayout>
+        </LinearLayout>
+    </com.android.launcher3.views.SpringRelativeLayout>
+</com.android.launcher3.widget.picker.WidgetsTwoPaneSheet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <ImageButton android:id="@id/learn_more_button" android:background="@android:color/transparent" android:layout_width="@dimen/search_preferences_button_size" android:layout_height="@dimen/search_preferences_button_size" android:src="@drawable/ic_info_no_shadow" android:tint="?android:^attr-private/materialColorOnSurface" android:contentDescription="@string/search_pref_info_btn" android:forceHasOverlappingRendering="false" />
+    <ImageButton android:id="@id/search_settings_button" android:background="@android:color/transparent" android:layout_width="@dimen/search_preferences_button_size" android:layout_height="@dimen/search_preferences_button_size" android:src="@drawable/themed_icon_settings" android:tint="?android:^attr-private/materialColorOnSurface" android:contentDescription="@string/search_settings_content_description" android:layout_marginStart="@dimen/suggest_image_horizontal_margin" android:forceHasOverlappingRendering="false" />
+</LinearLayout>
